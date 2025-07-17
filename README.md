@@ -17,7 +17,7 @@
 - Keyframe animations
 - Clip-path effects
 
-- ### Design Principles
+### Design Principles
 - BEM methodology
 - Consistent breakpoints
 - Accessible color contrast
