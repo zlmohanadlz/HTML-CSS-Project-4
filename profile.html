@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="HTML&CSS Full Template">
+        <meta name="author" content="Mohanad Ayoub">
+        <meta name="keywords" content="HTML, CSS">
+        <title>Profile</title>
+        <link rel="stylesheet" href="Css/framework.css">
+        <link rel="stylesheet" href="Css/master.css">
+        <!-- calling Font Awsome library -->
+        <link rel="stylesheet" href="Css/all.min.css">
+        <!-- Make all elements render normally -->
+        <link rel="stylesheet" href="Css/normalize.css">
+        <!-- getting Cairo font from google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="page d-flex">
+            <div class="sidebar">
+                <h2 class="txt-c">Mohanad</h2>
+                <nav>
+                    <ul class="d-flex" id="Menu"
+                        aria-label="Navigation Menu"
+                        aria-controls="Menu"
+                        aria-expanded="true">
+                        <li><a href="index.html" class="p-10 mb-5 rad-6"><i class="fa-regular fa-chart-bar fa-fw"></i><span class="ml-10">Dashboard</span></a></li>
+                        <li><a href="settings.html" class="mb-5 p-10 rad-6-10"><i class="fa-solid fa-gear fa-fw"></i><span class="ml-10">Settings</span></a></li>
+                        <li><a href="profile.html" class="active mb-5 p-10 rad-6-10"><i class="fa-regular fa-user fa-fw"></i><span class="ml-10">Profile</span></a></li>
+                        <li><a href="projects.html" class="mb-5 p-10 rad-6-10"><i class="fa-solid fa-diagram-project fa-fw"></i><span class="ml-10">Projects</span></a></li>
+                        <li><a href="courses.html" class="mb-5 p-10 rad-6-10"><i class="fa-solid fa-graduation-cap fa-fw"></i><span class="ml-10">Courses</span></a></li>
+                        <li><a href="friend.html" class="mb-5 p-10 rad-6-10"><i class="fa-regular fa-circle-user fa-fw"></i><span class="ml-10">Friends</span></a></li>
+                        <li><a href="files.html" class="mb-5 p-10 rad-6-10"><i class="fa-regular fa-file fa-fw"></i><span class="ml-10">Files</span></a></li>
+                        <li><a href="plans.html" class="mb-5 p-10 rad-6-10"><i class="fa-regular fa-credit-card fa-fw"></i><span class="ml-10">Plans</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content">
+                <header class="d-flex p-15 bg-white">
+                <div class="search">
+                    <input type="search" name="search" class="search p-10" placeholder="Type A Keyword">
+                </div>
+                <div class="user">
+                    <span><i class="fa-regular fa-bell fa-lg mr-10"></i></span>
+                    <img src="Images/dark.webp" alt="profile" class="circle">
+                </div>
+            </header>
+            <div class="content">
+                <h1>Profile</h1>
+                <div class="boards mr-20 ml-20 grid-sys">
+                    <main class="profile">
+                        <div class="pic">
+                            <img src="Images/dark.webp" alt="profile">
+                            <h4>Mohanad Ayoub</h4>
+                            <span>Level 20</span>
+                            <div class="bar"><span style="width:70%;" class="d-block rad-6"></span></div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                            </div>
+                            <span>550 Rating</span>
+                        </div>
+                        <div class="information">
+                            <div class="info">
+                                <p class="title">General Information</p>
+                                <div class="line">
+                                    <p><span>Full Name</span> Mohanad Ayoub</p>
+                                    <p><span>Gender:</span> Male</p>
+                                    <p><span>Country:</span> Yemen</p>
+                                    <div>
+                                        <label>
+                                            <input type="checkbox" class="toggle-checkbox">
+                                            <div class="toggle-switch"></div>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="info">
+                                <p class="title">Personal Information</p>
+                                <div class="line">
+                                    <p><span>Email:</span> MohanadAyoub@gmail.com</p>
+                                    <p><span>Phone:</span> 019123456789</p>
+                                    <p><span>Birth:</span> 22/11/2007</p>
+                                    <div>
+                                        <label>
+                                            <input type="checkbox" class="toggle-checkbox">
+                                            <div class="toggle-switch"></div>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="info">
+                                <p class="title">Job Information</p>
+                                <div class="line">
+                                    <p><span>Title:</span> Front-End Developer</p>
+                                    <p><span>Programming Language:</span> Python</p>
+                                    <p><span>Years Of Experience:</span> +1</p>
+                                    <div>
+                                        <label>
+                                            <input type="checkbox" class="toggle-checkbox" checked>
+                                            <div class="toggle-switch"></div>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="info">
+                                <p class="title">Billing Information</p>
+                                <div class="line">
+                                    <p><span>Payment Method:</span> Paypal</p>
+                                    <p><span>Email:</span> email@website.com</p>
+                                    <p><span>Subscription:</span> Monthly</p>
+                                    <div>
+                                        <label>
+                                            <input type="checkbox" class="toggle-checkbox">
+                                            <div class="toggle-switch"></div>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </main>
+                    <div class="actions">
+                        <section class="skills">
+                            <h3>My Skills</h3>
+                            <p>Complete Skills List</p>
+                            <div class="skl-line">
+                                <span>HTML</span>
+                                <span style="text-decoration-line: line-through;">Pugjs</span>
+                                <span style="text-decoration-line: line-through;">HAML</span>
+                            </div>
+                            <div class="skl-line">
+                                <span>CSS</span>
+                                <span style="text-decoration-line: line-through;">SASS</span>
+                                <span style="text-decoration-line: line-through;">Stylus</span>
+                            </div>
+                            <div class="skl-line">
+                                <span>JavaScript</span>
+                                <span style="text-decoration-line: line-through;">Typescript</span>
+                            </div>
+                            <div class="skl-line">
+                                <span style="text-decoration-line: line-through;">Vuejs</span>
+                                <span style="text-decoration-line: line-through;">Reactjs</span>
+                            </div>
+                            <div class="skl-line">
+                                <span style="text-decoration-line: line-through;">Jest</span>
+                                <span style="text-decoration-line: line-through;">Jasmine</span>
+                            </div>
+                            <div class="skl-line">
+                                <span style="text-decoration-line: line-through;">PHP</span>
+                                <span style="text-decoration-line: line-through;">Laravel</span>
+                            </div>
+                            <div class="skl-line">
+                                <span>Python</span>
+                                <span style="text-decoration-line: line-through;">Django</span>
+                            </div>
+                        </section>
+                        <section class="last-acts">
+                            <h3>Latest Activities</h3>
+                            <p>Latest Activities Done By The User</p>
+                            <div class="act">
+                                <div class="info">
+                                        <img src="Images/acitvity-1.webp" alt="activity">
+                                        <div class="text">
+                                            <span>Store</span>
+                                            <p>Bought The Mastering Python Course</p>
+                                        </div>
+                                        <div class="time">
+                                            <span>18:10</span>
+                                            <p>Yesterday</p>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="act">
+                                <div class="info">
+                                        <img src="Images/activity-2.webp" alt="activity">
+                                        <div class="text">
+                                            <span>Academy</span>
+                                            <p>Got The PHP Certificate</p>
+                                        </div>
+                                        <div class="time">
+                                            <span>16:05</span>
+                                            <p>Yesterday</p>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="act">
+                                <div class="info">
+                                        <img src="Images/activity-3.webp" alt="activity">
+                                        <div class="text">
+                                            <span>Badges</span>
+                                            <p>Unlocked The 10 Skills Badge</p>
+                                        </div>
+                                        <div class="time">
+                                            <span>18:05</span>
+                                            <p>Yesterday</p>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="act">
+                                <div class="info">
+                                        <img src="Images/acitvity-1.webp" alt="activity">
+                                        <div class="text">
+                                            <span>Store</span>
+                                            <p>Bought The Typescript Course</p>
+                                        </div>
+                                        <div class="time">
+                                            <span>12:05</span>
+                                            <p>Yesterday</p>
+                                        </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
