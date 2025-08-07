@@ -9,7 +9,7 @@ console.log(navLink[0].pathname);
 navLink.forEach(function (el) {
     if (el.pathname === websiteUrl) {
         el.classList.add("active");
-    } else if (websiteUrl === "/") {
+    } else if (websiteUrl.split("").pop() === "/") {
         navLink[0].classList.add("active");
     } // handle the case if the last of pathname is / void
 });
